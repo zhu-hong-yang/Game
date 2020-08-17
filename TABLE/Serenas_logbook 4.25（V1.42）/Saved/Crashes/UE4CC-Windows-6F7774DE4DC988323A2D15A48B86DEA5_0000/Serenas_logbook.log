@@ -1,0 +1,1559 @@
+﻿Log file open, 08/16/20 23:06:23
+LogInit: Display: Running engine for game: Serenas_logbook
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 71 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.267399
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +8:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-13942748
+LogInit: Engine Version: 4.25.3-13942748+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 1909) (), CPU: AMD Ryzen 9 3900X 12-Core Processor            , GPU: NVIDIA GeForce RTX 2080 Ti
+LogInit: Compiled (64-bit): Jul 25 2020 02:07:48
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line: 
+LogInit: Base Directory: D:/UE/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Unreal Projects/Game/TABLE/Serenas_logbook 4.25（V1.42）/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.08.16-15.06.23:740][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.08.16-15.06.23:740][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.08.16-15.06.23:740][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/Unreal Projects/Game/TABLE/Serenas_logbook 4.25（V1.42）/Saved/Config/Windows/Engine.ini]
+[2020.08.16-15.06.23:740][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.08.16-15.06.23:740][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure:0]]
+[2020.08.16-15.06.23:740][  0]LogConfig: Setting CVar [[r.Mobile.UseHWsRGBEncoding:0]]
+[2020.08.16-15.06.23:740][  0]LogConfig: Setting CVar [[r.Shadow.UnbuiltPreviewInGame:1]]
+[2020.08.16-15.06.23:740][  0]LogConfig: Setting CVar [[r.SupportPointLightWholeSceneShadows:1]]
+[2020.08.16-15.06.23:740][  0]LogConfig: Setting CVar [[r.Mobile.EnableStaticAndCSMShadowReceivers:1]]
+[2020.08.16-15.06.23:740][  0]LogConfig: Setting CVar [[r.Mobile.AllowDistanceFieldShadows:1]]
+[2020.08.16-15.06.23:740][  0]LogConfig: Setting CVar [[r.TextureStreaming:0]]
+[2020.08.16-15.06.23:740][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/Unreal Projects/Game/TABLE/Serenas_logbook 4.25（V1.42）/Saved/Config/Windows/Engine.ini]
+[2020.08.16-15.06.23:740][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Unreal Projects/Game/TABLE/Serenas_logbook 4.25（V1.42）/Saved/Config/Windows/Engine.ini]
+[2020.08.16-15.06.23:740][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.08.16-15.06.23:740][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.08.16-15.06.23:740][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.08.16-15.06.23:740][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.08.16-15.06.23:740][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.08.16-15.06.23:740][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.08.16-15.06.23:740][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.08.16-15.06.23:740][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.08.16-15.06.23:740][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.08.16-15.06.23:740][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.08.16-15.06.23:740][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.08.16-15.06.23:740][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.08.16-15.06.23:740][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.08.16-15.06.23:740][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.08.16-15.06.23:740][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/Unreal Projects/Game/TABLE/Serenas_logbook 4.25（V1.42）/Saved/Config/Windows/Engine.ini]
+[2020.08.16-15.06.23:740][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.08.16-15.06.23:740][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.08.16-15.06.23:740][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.08.16-15.06.23:740][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.08.16-15.06.23:740][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.08.16-15.06.23:740][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.08.16-15.06.23:740][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.08.16-15.06.23:740][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.08.16-15.06.23:740][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.08.16-15.06.23:740][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.08.16-15.06.23:740][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.08.16-15.06.23:740][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.08.16-15.06.23:740][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.08.16-15.06.23:740][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/Unreal Projects/Game/TABLE/Serenas_logbook 4.25（V1.42）/Saved/Config/Windows/Engine.ini]
+[2020.08.16-15.06.23:740][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/Unreal Projects/Game/TABLE/Serenas_logbook 4.25（V1.42）/Saved/Config/Windows/Engine.ini]
+[2020.08.16-15.06.23:740][  0]LogConfig: Setting CVar [[cook.AllowCookedDataInEditorBuilds:1]]
+[2020.08.16-15.06.23:742][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Unreal Projects/Game/TABLE/Serenas_logbook 4.25（V1.42）/Saved/Config/Windows/Scalability.ini]
+[2020.08.16-15.06.23:742][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.08.16-15.06.23:742][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.08.16-15.06.23:742][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Unreal Projects/Game/TABLE/Serenas_logbook 4.25（V1.42）/Saved/Config/Windows/Scalability.ini]
+[2020.08.16-15.06.23:742][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.08.16-15.06.23:742][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Unreal Projects/Game/TABLE/Serenas_logbook 4.25（V1.42）/Saved/Config/Windows/Scalability.ini]
+[2020.08.16-15.06.23:742][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.08.16-15.06.23:742][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.08.16-15.06.23:742][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.08.16-15.06.23:742][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.08.16-15.06.23:742][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.08.16-15.06.23:742][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.08.16-15.06.23:742][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.08.16-15.06.23:742][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.08.16-15.06.23:742][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.08.16-15.06.23:742][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.08.16-15.06.23:742][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.08.16-15.06.23:742][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.08.16-15.06.23:742][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.08.16-15.06.23:742][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.08.16-15.06.23:742][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.08.16-15.06.23:742][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.08.16-15.06.23:742][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.08.16-15.06.23:742][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.08.16-15.06.23:742][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Unreal Projects/Game/TABLE/Serenas_logbook 4.25（V1.42）/Saved/Config/Windows/Scalability.ini]
+[2020.08.16-15.06.23:742][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.08.16-15.06.23:742][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.08.16-15.06.23:742][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.08.16-15.06.23:742][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.08.16-15.06.23:742][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.08.16-15.06.23:742][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.08.16-15.06.23:742][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.08.16-15.06.23:742][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.08.16-15.06.23:742][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.08.16-15.06.23:742][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.08.16-15.06.23:742][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.08.16-15.06.23:742][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.08.16-15.06.23:743][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.08.16-15.06.23:743][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.08.16-15.06.23:743][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.08.16-15.06.23:743][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.08.16-15.06.23:743][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.08.16-15.06.23:743][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.08.16-15.06.23:743][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.08.16-15.06.23:743][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.08.16-15.06.23:743][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.08.16-15.06.23:743][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.08.16-15.06.23:743][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.08.16-15.06.23:743][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.08.16-15.06.23:743][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.08.16-15.06.23:743][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.08.16-15.06.23:743][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.08.16-15.06.23:743][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.08.16-15.06.23:743][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.08.16-15.06.23:743][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.08.16-15.06.23:743][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Unreal Projects/Game/TABLE/Serenas_logbook 4.25（V1.42）/Saved/Config/Windows/Scalability.ini]
+[2020.08.16-15.06.23:743][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.08.16-15.06.23:743][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.08.16-15.06.23:743][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.08.16-15.06.23:743][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.08.16-15.06.23:743][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.08.16-15.06.23:743][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.08.16-15.06.23:743][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.08.16-15.06.23:743][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.08.16-15.06.23:743][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.08.16-15.06.23:743][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Unreal Projects/Game/TABLE/Serenas_logbook 4.25（V1.42）/Saved/Config/Windows/Scalability.ini]
+[2020.08.16-15.06.23:743][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.08.16-15.06.23:743][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.08.16-15.06.23:743][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.08.16-15.06.23:743][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.08.16-15.06.23:743][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.08.16-15.06.23:743][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.08.16-15.06.23:743][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.08.16-15.06.23:743][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.08.16-15.06.23:743][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.08.16-15.06.23:743][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.08.16-15.06.23:743][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.08.16-15.06.23:743][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.08.16-15.06.23:743][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.08.16-15.06.23:743][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.08.16-15.06.23:743][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.08.16-15.06.23:743][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.08.16-15.06.23:743][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.08.16-15.06.23:743][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.08.16-15.06.23:743][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.08.16-15.06.23:743][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.08.16-15.06.23:743][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.08.16-15.06.23:743][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.08.16-15.06.23:743][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.08.16-15.06.23:743][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.08.16-15.06.23:743][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.08.16-15.06.23:743][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.08.16-15.06.23:743][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Unreal Projects/Game/TABLE/Serenas_logbook 4.25（V1.42）/Saved/Config/Windows/Scalability.ini]
+[2020.08.16-15.06.23:743][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.08.16-15.06.23:743][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.08.16-15.06.23:743][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Unreal Projects/Game/TABLE/Serenas_logbook 4.25（V1.42）/Saved/Config/Windows/Scalability.ini]
+[2020.08.16-15.06.23:743][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.08.16-15.06.23:743][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.08.16-15.06.23:743][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.08.16-15.06.23:743][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.08.16-15.06.23:743][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.08.16-15.06.23:743][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.08.16-15.06.23:743][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.08.16-15.06.23:743][  0]LogInit: Selected Device Profile: [Windows]
+[2020.08.16-15.06.23:743][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.08.16-15.06.23:743][  0]LogHAL: Display: Platform has ~ 32 GB [34305564672 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.08.16-15.06.23:743][  0]LogInit: Going up to parent DeviceProfile []
+[2020.08.16-15.06.23:743][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Unreal Projects/Game/TABLE/Serenas_logbook 4.25（V1.42）/Saved/Config/Windows/Scalability.ini]
+[2020.08.16-15.06.23:743][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.08.16-15.06.23:743][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.08.16-15.06.23:743][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Unreal Projects/Game/TABLE/Serenas_logbook 4.25（V1.42）/Saved/Config/Windows/Scalability.ini]
+[2020.08.16-15.06.23:743][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.08.16-15.06.23:743][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Unreal Projects/Game/TABLE/Serenas_logbook 4.25（V1.42）/Saved/Config/Windows/Scalability.ini]
+[2020.08.16-15.06.23:743][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.08.16-15.06.23:743][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.08.16-15.06.23:743][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.08.16-15.06.23:743][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.08.16-15.06.23:743][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.08.16-15.06.23:743][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.08.16-15.06.23:743][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.08.16-15.06.23:743][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.08.16-15.06.23:744][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.08.16-15.06.23:744][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.08.16-15.06.23:744][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.08.16-15.06.23:744][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.08.16-15.06.23:744][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.08.16-15.06.23:744][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.08.16-15.06.23:744][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.08.16-15.06.23:744][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.08.16-15.06.23:744][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.08.16-15.06.23:744][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.08.16-15.06.23:744][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Unreal Projects/Game/TABLE/Serenas_logbook 4.25（V1.42）/Saved/Config/Windows/Scalability.ini]
+[2020.08.16-15.06.23:744][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.08.16-15.06.23:744][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.08.16-15.06.23:744][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.08.16-15.06.23:744][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.08.16-15.06.23:744][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.08.16-15.06.23:744][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.08.16-15.06.23:744][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.08.16-15.06.23:744][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.08.16-15.06.23:744][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.08.16-15.06.23:744][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.08.16-15.06.23:744][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.08.16-15.06.23:744][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.08.16-15.06.23:744][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.08.16-15.06.23:744][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.08.16-15.06.23:744][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.08.16-15.06.23:744][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.08.16-15.06.23:744][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.08.16-15.06.23:744][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.08.16-15.06.23:744][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.08.16-15.06.23:744][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.08.16-15.06.23:744][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.08.16-15.06.23:744][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.08.16-15.06.23:744][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.08.16-15.06.23:744][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.08.16-15.06.23:744][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.08.16-15.06.23:744][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.08.16-15.06.23:744][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.08.16-15.06.23:744][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.08.16-15.06.23:744][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.08.16-15.06.23:744][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.08.16-15.06.23:744][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Unreal Projects/Game/TABLE/Serenas_logbook 4.25（V1.42）/Saved/Config/Windows/Scalability.ini]
+[2020.08.16-15.06.23:744][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.08.16-15.06.23:744][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.08.16-15.06.23:744][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.08.16-15.06.23:744][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.08.16-15.06.23:744][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.08.16-15.06.23:744][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.08.16-15.06.23:744][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.08.16-15.06.23:744][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.08.16-15.06.23:744][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.08.16-15.06.23:744][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Unreal Projects/Game/TABLE/Serenas_logbook 4.25（V1.42）/Saved/Config/Windows/Scalability.ini]
+[2020.08.16-15.06.23:744][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.08.16-15.06.23:744][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.08.16-15.06.23:744][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.08.16-15.06.23:744][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.08.16-15.06.23:744][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.08.16-15.06.23:744][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.08.16-15.06.23:744][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.08.16-15.06.23:744][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.08.16-15.06.23:744][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.08.16-15.06.23:744][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.08.16-15.06.23:744][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.08.16-15.06.23:744][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.08.16-15.06.23:744][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.08.16-15.06.23:744][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.08.16-15.06.23:744][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.08.16-15.06.23:744][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.08.16-15.06.23:744][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.08.16-15.06.23:744][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.08.16-15.06.23:744][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.08.16-15.06.23:744][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.08.16-15.06.23:744][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.08.16-15.06.23:744][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.08.16-15.06.23:744][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.08.16-15.06.23:744][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.08.16-15.06.23:744][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.08.16-15.06.23:744][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.08.16-15.06.23:744][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Unreal Projects/Game/TABLE/Serenas_logbook 4.25（V1.42）/Saved/Config/Windows/Scalability.ini]
+[2020.08.16-15.06.23:744][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.08.16-15.06.23:744][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.08.16-15.06.23:744][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Unreal Projects/Game/TABLE/Serenas_logbook 4.25（V1.42）/Saved/Config/Windows/Scalability.ini]
+[2020.08.16-15.06.23:744][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.08.16-15.06.23:744][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.08.16-15.06.23:744][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.08.16-15.06.23:744][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.08.16-15.06.23:744][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.08.16-15.06.23:744][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.08.16-15.06.23:744][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.08.16-15.06.23:744][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.08.16-15.06.23:745][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.08.16-15.06.23:745][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.08.16-15.06.23:745][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.08.16-15.06.23:745][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/Unreal Projects/Game/TABLE/Serenas_logbook 4.25（V1.42）/Saved/Config/Windows/Engine.ini]
+[2020.08.16-15.06.23:745][  0]LogInit: Computer: DESKTOP-1OHPS5K
+[2020.08.16-15.06.23:745][  0]LogInit: User: Jun
+[2020.08.16-15.06.23:745][  0]LogInit: CPU Page size=4096, Cores=12
+[2020.08.16-15.06.23:745][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.08.16-15.06.23:745][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2020.08.16-15.06.23:745][  0]LogMemory: Platform Memory Stats for Windows
+[2020.08.16-15.06.23:745][  0]LogMemory: Process Physical Memory: 119.19 MB used, 119.19 MB peak
+[2020.08.16-15.06.23:745][  0]LogMemory: Process Virtual Memory: 102.94 MB used, 102.94 MB peak
+[2020.08.16-15.06.23:745][  0]LogMemory: Physical Memory: 6535.84 MB used,  26180.49 MB free, 32716.34 MB total
+[2020.08.16-15.06.23:745][  0]LogMemory: Virtual Memory: 5230.54 MB used,  134212496.00 MB free, 134217728.00 MB total
+[2020.08.16-15.06.23:750][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.08.16-15.06.23:774][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2020.08.16-15.06.23:774][  0]LogInit: Using OS detected language (zh-CN).
+[2020.08.16-15.06.23:774][  0]LogInit: Using OS detected locale (zh-CN).
+[2020.08.16-15.06.23:775][  0]LogTextLocalizationManager: No specific localization for 'zh-CN' exists, so the 'zh-Hans' localization will be used.
+[2020.08.16-15.06.23:854][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/zh/Editor.locres' could not be opened for reading!
+[2020.08.16-15.06.23:854][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/zh/EditorTutorials.locres' could not be opened for reading!
+[2020.08.16-15.06.23:854][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/zh/Keywords.locres' could not be opened for reading!
+[2020.08.16-15.06.23:854][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/zh/Category.locres' could not be opened for reading!
+[2020.08.16-15.06.23:854][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/zh/ToolTips.locres' could not be opened for reading!
+[2020.08.16-15.06.23:854][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/zh/PropertyNames.locres' could not be opened for reading!
+[2020.08.16-15.06.23:854][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/zh/Engine.locres' could not be opened for reading!
+[2020.08.16-15.06.23:854][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/Content/Localization/OnlineSubsystemGooglePlay/zh/OnlineSubsystemGooglePlay.locres' could not be opened for reading!
+[2020.08.16-15.06.23:854][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/IOS/OnlineSubsystemIOS/Content/Localization/OnlineSubsystemIOS/zh/OnlineSubsystemIOS.locres' could not be opened for reading!
+[2020.08.16-15.06.23:854][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/OnlineSubsystem/Content/Localization/OnlineSubsystem/zh/OnlineSubsystem.locres' could not be opened for reading!
+[2020.08.16-15.06.23:854][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/OnlineSubsystemUtils/Content/Localization/OnlineSubsystemUtils/zh/OnlineSubsystemUtils.locres' could not be opened for reading!
+[2020.08.16-15.06.23:896][  0]LogInit: Setting process to per monitor DPI aware
+[2020.08.16-15.06.23:918][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.08.16-15.06.23:918][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.08.16-15.06.24:013][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.08.16-15.06.24:013][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.08.16-15.06.24:013][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.08.16-15.06.24:013][  0]LogD3D11RHI: D3D11 adapters:
+[2020.08.16-15.06.24:076][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2080 Ti' (Feature Level 11_0)
+[2020.08.16-15.06.24:076][  0]LogD3D11RHI:       11048/0/16358 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.08.16-15.06.24:078][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.08.16-15.06.24:078][  0]LogD3D11RHI:       0/0/16358 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.08.16-15.06.24:078][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.08.16-15.06.24:085][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.08.16-15.06.24:085][  0]LogD3D11RHI:     GPU DeviceId: 0x1e07 (for the marketing name, search the web for "GPU Device Id")
+[2020.08.16-15.06.24:085][  0]LogWindows: EnumDisplayDevices:
+[2020.08.16-15.06.24:085][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2080 Ti' (P:1 D:1)
+[2020.08.16-15.06.24:085][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2080 Ti' (P:0 D:0)
+[2020.08.16-15.06.24:085][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2080 Ti' (P:0 D:0)
+[2020.08.16-15.06.24:085][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2080 Ti' (P:0 D:0)
+[2020.08.16-15.06.24:086][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2020.08.16-15.06.24:086][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2080 Ti
+[2020.08.16-15.06.24:086][  0]LogD3D11RHI:   Driver Version: 451.67 (internal:27.21.14.5167, unified:451.67)
+[2020.08.16-15.06.24:086][  0]LogD3D11RHI:      Driver Date: 7-5-2020
+[2020.08.16-15.06.24:086][  0]LogRHI: Texture pool is 7733 MB (70% of 11048 MB)
+[2020.08.16-15.06.24:123][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.08.16-15.06.24:125][  0]LogD3D11RHI: [Aftermath] Enabled and primed
+[2020.08.16-15.06.24:125][  0]LogD3D11RHI: Async texture creation enabled
+[2020.08.16-15.06.24:125][  0]LogD3D11RHI: Array index from any shader is supported
+[2020.08.16-15.06.24:156][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2020.08.16-15.06.24:372][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.08.16-15.06.24:391][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.08.16-15.06.24:391][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.08.16-15.06.24:391][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.08.16-15.06.24:391][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.08.16-15.06.24:391][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.08.16-15.06.24:391][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.08.16-15.06.24:391][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.08.16-15.06.24:391][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.08.16-15.06.24:391][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.08.16-15.06.24:391][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.08.16-15.06.24:412][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.08.16-15.06.24:412][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.08.16-15.06.24:421][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2020.08.16-15.06.24:429][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.08.16-15.06.24:436][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.08.16-15.06.24:444][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.08.16-15.06.24:452][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.08.16-15.06.24:460][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.08.16-15.06.24:467][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.08.16-15.06.24:489][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.08.16-15.06.24:489][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.08.16-15.06.24:502][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.08.16-15.06.24:502][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.08.16-15.06.24:510][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.08.16-15.06.24:518][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.08.16-15.06.24:525][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.08.16-15.06.24:533][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.08.16-15.06.24:533][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.08.16-15.06.24:539][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.08.16-15.06.24:582][  0]LogShaderCompilers: Guid format shader working directory is -25 characters bigger than the processId version (../../../../../Unreal Projects/Game/TABLE/Serenas_logbook 4.25（V1.42）/Intermediate/Shaders/WorkingDirectory/4064/).
+[2020.08.16-15.06.24:582][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Jun/AppData/Local/Temp/UnrealShaderWorkingDir/6771A4B14B8283BC11C773BE77217D6A/'.
+[2020.08.16-15.06.24:582][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.08.16-15.06.24:582][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.08.16-15.06.24:582][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.08.16-15.06.25:213][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.08.16-15.06.25:262][  0]LogDerivedDataCache: Loaded boot cache 0.05s 89MB C:/Users/Jun/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.08.16-15.06.25:262][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Jun/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2020.08.16-15.06.25:262][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Unreal Projects/Game/TABLE/Serenas_logbook 4.25（V1.42）/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.08.16-15.06.25:262][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.08.16-15.06.25:262][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Unreal Projects/Game/TABLE/Serenas_logbook 4.25（V1.42）/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.08.16-15.06.25:262][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.08.16-15.06.25:272][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.08.16-15.06.25:272][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.08.16-15.06.25:272][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.08.16-15.06.25:273][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Jun/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.08.16-15.06.25:273][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.08.16-15.06.25:273][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.08.16-15.06.25:315][  0]LogSlate: Using FreeType 2.10.0
+[2020.08.16-15.06.25:316][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.08.16-15.06.25:335][  0]LogAssetRegistry: FAssetRegistry took 0.0021 seconds to start up
+[2020.08.16-15.06.25:524][  0]LogInit: Selected Device Profile: [Windows]
+[2020.08.16-15.06.25:689][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.08.16-15.06.25:689][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.08.16-15.06.25:689][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.08.16-15.06.25:689][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.08.16-15.06.25:689][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.08.16-15.06.25:702][  0]LogNetVersion: Serenas_logbook 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 2850820902)
+[2020.08.16-15.06.26:705][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (0000024A70C91AC0), frame # 0
+[2020.08.16-15.06.26:705][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000024A70AF9E40), frame # 0
+[2020.08.16-15.06.26:706][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000024A70B9C800), frame # 0
+[2020.08.16-15.06.27:235][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 2 prioritized culture(s) in 0.523649 seconds
+[2020.08.16-15.06.27:239][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2020.08.16-15.06.27:239][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2020.08.16-15.06.27:239][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.08.16-15.06.27:688][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.08.16-15.06.27:691][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.08.16-15.06.27:810][  0]SourceControl: 源码管理已禁用
+[2020.08.16-15.06.27:810][  0]SourceControl: 源码管理已禁用
+[2020.08.16-15.06.27:813][  0]SourceControl: 源码管理已禁用
+[2020.08.16-15.06.27:815][  0]SourceControl: 源码管理已禁用
+[2020.08.16-15.06.27:820][  0]SourceControl: 源码管理已禁用
+[2020.08.16-15.06.28:018][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.08.16-15.06.28:033][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.08.16-15.06.28:033][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.08.16-15.06.28:109][  0]LogOcInput: OculusInput pre-init called
+[2020.08.16-15.06.28:117][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.08.16-15.06.28:117][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.08.16-15.06.28:171][  0]LogEngine: Initializing Engine...
+[2020.08.16-15.06.28:172][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.08.16-15.06.28:172][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2020.08.16-15.06.28:172][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.08.16-15.06.28:358][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.08.16-15.06.28:363][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.08.16-15.06.28:364][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000024A78663C00), frame # 0
+[2020.08.16-15.06.28:364][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000024A786E5A80), frame # 0
+[2020.08.16-15.06.28:367][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.08.16-15.06.28:367][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.08.16-15.06.28:367][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.08.16-15.06.28:367][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.08.16-15.06.28:367][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.08.16-15.06.28:367][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.08.16-15.06.28:367][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.08.16-15.06.28:367][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.08.16-15.06.28:367][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.08.16-15.06.28:367][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.08.16-15.06.28:378][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.08.16-15.06.28:378][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.08.16-15.06.28:423][  0]LogAudioMixer: Display: Using Audio Device Realtek HD Audio 2nd output (Realtek(R) Audio)
+[2020.08.16-15.06.28:424][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.08.16-15.06.28:426][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.08.16-15.06.28:426][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.08.16-15.06.28:426][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.08.16-15.06.28:427][  0]LogInit: FAudioDevice initialized.
+[2020.08.16-15.06.28:427][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.08.16-15.06.28:475][  0]LogDerivedDataCache: Saved boot cache 0.05s 89MB C:/Users/Jun/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.08.16-15.06.28:479][  0]LogInit: Texture streaming: Disabled
+[2020.08.16-15.06.28:492][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.08.16-15.06.28:492][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.08.16-15.06.28:493][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.08.16-15.06.28:555][  0]LogInit: Transaction tracking system initialized
+[2020.08.16-15.06.28:571][  0]BlueprintLog: New page: 编辑器加载
+[2020.08.16-15.06.28:626][  0]LocalizationService: 本地化服务已禁用
+[2020.08.16-15.06.29:119][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.08.16-15.06.29:119][  0]LogCook: Display: Mobile HDR setting 1
+[2020.08.16-15.06.29:406][  0]SourceControl: 源码管理已禁用
+[2020.08.16-15.06.29:406][  0]LogUnrealEdMisc: Loading editor; pre map load, took 7.288
+[2020.08.16-15.06.29:406][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.08.16-15.06.29:406][  0]LightingResults: New page: 光照构建
+[2020.08.16-15.06.29:407][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.08.16-15.06.29:407][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.16-15.06.29:407][  0]MapCheck: New page: 地图检测
+[2020.08.16-15.06.29:407][  0]LightingResults: New page: 光照构建
+[2020.08.16-15.06.29:422][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000024A78663C00), frame # 0
+[2020.08.16-15.06.29:422][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000024A786E5A80), frame # 0
+[2020.08.16-15.06.29:423][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2020.08.16-15.06.29:674][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2020.08.16-15.06.29:674][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000024A0BC38800), frame # 0
+[2020.08.16-15.06.29:674][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000024A0A0B9800), frame # 0
+[2020.08.16-15.06.29:677][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.08.16-15.06.29:690][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2020.08.16-15.06.29:690][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.08.16-15.06.29:690][  0]MapCheck: 地图检测完成：0个错误、0个警告、完成用时0.093毫秒。
+[2020.08.16-15.06.29:690][  0]LogFileHelpers: Loading map 'Template_Default' took 0.284
+[2020.08.16-15.06.29:714][  0]LogUnrealEdMisc: Total Editor Startup Time, took 7.596
+[2020.08.16-15.06.30:563][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.16-15.06.30:592][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.16-15.06.30:597][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.16-15.06.30:602][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.16-15.06.30:873][  0]LogCollectionManager: Loaded 0 collections in 0.000871 seconds
+[2020.08.16-15.06.31:112][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/Game/TABLE/Serenas_logbook 4.25（V1.42）/Content/' took 1.95s
+[2020.08.16-15.06.31:112][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/Game/TABLE/Serenas_logbook 4.25（V1.42）/Saved/Collections/' took 0.19s
+[2020.08.16-15.06.31:112][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/Game/TABLE/Serenas_logbook 4.25（V1.42）/Content/Developers/Jun/Collections/' took 0.19s
+[2020.08.16-15.06.31:112][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/Game/TABLE/Serenas_logbook 4.25（V1.42）/Content/Collections/' took 0.19s
+[2020.08.16-15.06.31:112][  0]LogContentBrowser: Native class hierarchy populated in 0.0086 seconds. Added 3427 classes and 821 folders.
+[2020.08.16-15.06.31:183][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.08.16-15.06.32:231][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.08.16-15.06.32:256][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 2 classes and 0 folders.
+[2020.08.16-15.06.32:839][  0]LogSlate: Took 0.000156 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.08.16-15.06.32:841][  0]LogSlate: Took 0.001190 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2020.08.16-15.06.32:852][  0]LogSlate: Took 0.000091 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.08.16-15.06.32:874][  0]LogSlate: Took 0.010285 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.08.16-15.06.33:148][  0]LogRenderer: Reallocating scene render targets to support 1592x836 Format 10 NumSamples 1 (Frame:1).
+[2020.08.16-15.06.33:384][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2020.08.16-15.06.33:384][  0]LogLoad: (Engine Initialization) Total time: 11.27 seconds
+[2020.08.16-15.06.33:384][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.08.16-15.06.33:864][  2]LogAssetRegistry: Asset discovery search completed in 8.5300 seconds
+[2020.08.16-15.06.33:867][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000002 seconds (updated 0 objects)
+[2020.08.16-15.06.50:966][ 54]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.08.16-15.06.51:005][ 54]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (搜狗拼音输入法).
+[2020.08.16-15.08.00:985][496]LogSlate: Took 0.026436 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.08.16-15.08.01:532][496]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/RPGSystem/MiniMap/MiniMapPOI_WG.MiniMapPOI_WG
+[2020.08.16-15.08.02:481][496]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 125 classes and 0 folders.
+[2020.08.16-15.08.04:997][496]LogSlate: Took 0.003951 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.08.16-15.08.10:621][ 86]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/RPGSystem/MiniMap/MiniMapWG.MiniMapWG
+[2020.08.16-15.08.12:796][227]LogSlate: Took 0.006228 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.08.16-15.08.27:904][894]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.08.16-15.08.27:904][894]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.08.16-15.09.09:286][674]LogAssetEditorSubsystem: Opening Asset editor for UserDefinedStruct /Game/RPGSystem/MiniMap/MiniMapSt.MiniMapSt
+[2020.08.16-15.09.11:631][930]LogSlate: Took 0.015476 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2020.08.16-15.10.23:751][ 76]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RPGSystem/MiniMap/MiniMapSt" FILE="../../../../../Unreal Projects/Game/TABLE/Serenas_logbook 4.25（V1.42）/Content/RPGSystem/MiniMap/MiniMapSt.uasset" SILENT=true
+[2020.08.16-15.10.23:800][ 76]LogSavePackage: Moving '../../../../../Unreal Projects/Game/TABLE/Serenas_logbook 4.25（V1.42）/Saved/MiniMapSt1EC67FC54064181BDE7B0489EFD08B8F.tmp' to '../../../../../Unreal Projects/Game/TABLE/Serenas_logbook 4.25（V1.42）/Content/RPGSystem/MiniMap/MiniMapSt.uasset'
+[2020.08.16-15.10.23:857][ 76]AssetCheck: New page: 资产保存：MiniMapSt
+[2020.08.16-15.10.23:857][ 76]LogContentValidation: Display: 正在验证UserDefinedStruct /Game/RPGSystem/MiniMap/MiniMapSt.MiniMapSt
+[2020.08.16-15.10.38:507][789]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RPGSystem/MiniMap/MiniMapSt" FILE="../../../../../Unreal Projects/Game/TABLE/Serenas_logbook 4.25（V1.42）/Content/RPGSystem/MiniMap/MiniMapSt.uasset" SILENT=true
+[2020.08.16-15.10.38:810][789]LogSavePackage: Moving '../../../../../Unreal Projects/Game/TABLE/Serenas_logbook 4.25（V1.42）/Saved/MiniMapSt77365E284B93F3DC17E9E8B0895C7A6D.tmp' to '../../../../../Unreal Projects/Game/TABLE/Serenas_logbook 4.25（V1.42）/Content/RPGSystem/MiniMap/MiniMapSt.uasset'
+[2020.08.16-15.10.38:823][789]AssetCheck: New page: 资产保存：MiniMapSt
+[2020.08.16-15.10.38:823][789]LogContentValidation: Display: 正在验证UserDefinedStruct /Game/RPGSystem/MiniMap/MiniMapSt.MiniMapSt
+[2020.08.16-15.11.00:552][575]LogSlate: Window '选取行结构' being destroyed
+[2020.08.16-15.11.05:216][113]LogAssetEditorSubsystem: Opening Asset editor for DataTable /Game/RPGSystem/MiniMap/MiniMapDT.MiniMapDT
+[2020.08.16-15.11.26:193][243]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RPGSystem/MiniMap/MiniMapDT" FILE="../../../../../Unreal Projects/Game/TABLE/Serenas_logbook 4.25（V1.42）/Content/RPGSystem/MiniMap/MiniMapDT.uasset" SILENT=true
+[2020.08.16-15.11.26:198][243]LogSavePackage: Moving '../../../../../Unreal Projects/Game/TABLE/Serenas_logbook 4.25（V1.42）/Saved/MiniMapDT621856334A55DD60DCC556B4B01D56E5.tmp' to '../../../../../Unreal Projects/Game/TABLE/Serenas_logbook 4.25（V1.42）/Content/RPGSystem/MiniMap/MiniMapDT.uasset'
+[2020.08.16-15.11.26:213][243]AssetCheck: New page: 资产保存：MiniMapDT
+[2020.08.16-15.11.26:213][243]LogContentValidation: Display: 正在验证DataTable /Game/RPGSystem/MiniMap/MiniMapDT.MiniMapDT
+[2020.08.16-15.11.45:387][146]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RPGSystem/MiniMap/MiniMapDT" FILE="../../../../../Unreal Projects/Game/TABLE/Serenas_logbook 4.25（V1.42）/Content/RPGSystem/MiniMap/MiniMapDT.uasset" SILENT=true
+[2020.08.16-15.11.45:395][146]LogSavePackage: Moving '../../../../../Unreal Projects/Game/TABLE/Serenas_logbook 4.25（V1.42）/Saved/MiniMapDT5F87F6DE42BF2955DE0897B3F29ACF4E.tmp' to '../../../../../Unreal Projects/Game/TABLE/Serenas_logbook 4.25（V1.42）/Content/RPGSystem/MiniMap/MiniMapDT.uasset'
+[2020.08.16-15.11.45:410][146]AssetCheck: New page: 资产保存：MiniMapDT
+[2020.08.16-15.11.45:410][146]LogContentValidation: Display: 正在验证DataTable /Game/RPGSystem/MiniMap/MiniMapDT.MiniMapDT
+[2020.08.16-15.11.50:165][706]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RPGSystem/MiniMap/MiniMapDT" FILE="../../../../../Unreal Projects/Game/TABLE/Serenas_logbook 4.25（V1.42）/Content/RPGSystem/MiniMap/MiniMapDT.uasset" SILENT=true
+[2020.08.16-15.11.50:172][706]LogSavePackage: Moving '../../../../../Unreal Projects/Game/TABLE/Serenas_logbook 4.25（V1.42）/Saved/MiniMapDTACDB0A164142549A9898A698C9225CA7.tmp' to '../../../../../Unreal Projects/Game/TABLE/Serenas_logbook 4.25（V1.42）/Content/RPGSystem/MiniMap/MiniMapDT.uasset'
+[2020.08.16-15.11.50:204][706]AssetCheck: New page: 资产保存：MiniMapDT
+[2020.08.16-15.11.50:204][706]LogContentValidation: Display: 正在验证DataTable /Game/RPGSystem/MiniMap/MiniMapDT.MiniMapDT
+[2020.08.16-15.12.07:817][690]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RPGSystem/MiniMap/MiniMapPOI_WG" FILE="../../../../../Unreal Projects/Game/TABLE/Serenas_logbook 4.25（V1.42）/Content/RPGSystem/MiniMap/MiniMapPOI_WG.uasset" SILENT=true
+[2020.08.16-15.12.07:931][690]LogSavePackage: Moving '../../../../../Unreal Projects/Game/TABLE/Serenas_logbook 4.25（V1.42）/Saved/MiniMapPOI_WG5A934EAB4C770EEB7EF26790FEC0531E.tmp' to '../../../../../Unreal Projects/Game/TABLE/Serenas_logbook 4.25（V1.42）/Content/RPGSystem/MiniMap/MiniMapPOI_WG.uasset'
+[2020.08.16-15.12.07:962][690]AssetCheck: New page: 资产保存：MiniMapPOI_WG
+[2020.08.16-15.12.07:962][690]LogContentValidation: Display: 正在验证WidgetBlueprint /Game/RPGSystem/MiniMap/MiniMapPOI_WG.MiniMapPOI_WG
+[2020.08.16-15.12.08:868][765]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2020.08.16-15.12.08:868][765]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.16-15.12.08:903][765]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2020.08.16-15.12.08:903][765]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.16-15.12.25:710][597]LogUObjectHash: Compacting FUObjectHashTables data took   6.14ms
+[2020.08.16-15.12.26:649][597]LogSlate: Window '保存内容' being destroyed
+[2020.08.16-15.12.26:664][597]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RPGSystem/MiniMap/MiniMapWG" FILE="../../../../../Unreal Projects/Game/TABLE/Serenas_logbook 4.25（V1.42）/Content/RPGSystem/MiniMap/MiniMapWG.uasset" SILENT=true
+[2020.08.16-15.12.26:690][597]LogSavePackage: Moving '../../../../../Unreal Projects/Game/TABLE/Serenas_logbook 4.25（V1.42）/Saved/MiniMapWG81555192420436E24107E88DDA685E80.tmp' to '../../../../../Unreal Projects/Game/TABLE/Serenas_logbook 4.25（V1.42）/Content/RPGSystem/MiniMap/MiniMapWG.uasset'
+[2020.08.16-15.12.26:736][597]AssetCheck: New page: 资产保存：MiniMapWG
+[2020.08.16-15.12.26:736][597]LogContentValidation: Display: 正在验证WidgetBlueprint /Game/RPGSystem/MiniMap/MiniMapWG.MiniMapWG
+[2020.08.16-15.12.37:553][121]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/RPGSystem/MiniMap/M_MiniMap.M_MiniMap
+[2020.08.16-15.12.37:586][121]LogMaterial: Display: Missing cached shader map for material M_MiniMap, compiling. 
+[2020.08.16-15.12.38:429][121]LogMaterial: Display: Missing cached shader map for material M_MiniMap, compiling. 
+[2020.08.16-15.12.38:437][121]LogMaterial: Display: Missing cached shader map for material M_MiniMap, compiling. 
+[2020.08.16-15.12.38:454][121]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2020.08.16-15.12.38:459][121]LogShaderCompilers: Display: Worker (1/21): shaders left to compile 15
+[2020.08.16-15.12.38:459][121]LogShaderCompilers: Display: Worker (2/21): shaders left to compile 14
+[2020.08.16-15.12.38:459][121]LogShaderCompilers: Display: Worker (3/21): shaders left to compile 13
+[2020.08.16-15.12.38:459][121]LogShaderCompilers: Display: Worker (4/21): shaders left to compile 12
+[2020.08.16-15.12.38:459][121]LogShaderCompilers: Display: Worker (5/21): shaders left to compile 11
+[2020.08.16-15.12.38:459][121]LogShaderCompilers: Display: Worker (6/21): shaders left to compile 10
+[2020.08.16-15.12.38:459][121]LogShaderCompilers: Display: Worker (7/21): shaders left to compile 9
+[2020.08.16-15.12.38:459][121]LogShaderCompilers: Display: Worker (8/21): shaders left to compile 8
+[2020.08.16-15.12.38:459][121]LogShaderCompilers: Display: Worker (9/21): shaders left to compile 7
+[2020.08.16-15.12.38:459][121]LogShaderCompilers: Display: Worker (10/21): shaders left to compile 6
+[2020.08.16-15.12.38:459][121]LogShaderCompilers: Display: Worker (11/21): shaders left to compile 5
+[2020.08.16-15.12.38:459][121]LogShaderCompilers: Display: Worker (12/21): shaders left to compile 4
+[2020.08.16-15.12.38:459][121]LogShaderCompilers: Display: Worker (13/21): shaders left to compile 3
+[2020.08.16-15.12.38:459][121]LogShaderCompilers: Display: Worker (14/21): shaders left to compile 2
+[2020.08.16-15.12.38:459][121]LogShaderCompilers: Display: Worker (15/21): shaders left to compile 1
+[2020.08.16-15.12.38:751][122]LogShaderCompilers: Display: Worker (16/21): shaders left to compile 4
+[2020.08.16-15.12.38:751][122]LogShaderCompilers: Display: Worker (17/21): shaders left to compile 3
+[2020.08.16-15.12.38:751][122]LogShaderCompilers: Display: Worker (18/21): shaders left to compile 2
+[2020.08.16-15.12.38:751][122]LogShaderCompilers: Display: Worker (19/21): shaders left to compile 1
+[2020.08.16-15.12.41:691][305]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2020.08.16-15.12.41:692][305]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.16-15.13.38:015][644]LogEditorTransaction: Undo 创建引脚连接
+[2020.08.16-15.13.38:235][652]LogEditorTransaction: Undo 断开引脚连接
+[2020.08.16-15.13.38:607][674]LogEditorTransaction: Undo 创建引脚连接
+[2020.08.16-15.13.38:956][710]LogEditorTransaction: Undo 断开引脚连接
+[2020.08.16-15.13.46:794][562]LogEditorTransaction: Redo 断开引脚连接
+[2020.08.16-15.13.47:033][572]LogEditorTransaction: Redo 创建引脚连接
+[2020.08.16-15.13.47:193][578]LogEditorTransaction: Redo 断开引脚连接
+[2020.08.16-15.13.47:377][590]LogEditorTransaction: Redo 创建引脚连接
+[2020.08.16-15.14.03:231][297]BlueprintLog: New page: 编译MiniMapWG
+[2020.08.16-15.14.03:390][297]LogUObjectHash: Compacting FUObjectHashTables data took   5.42ms
+[2020.08.16-15.14.03:837][339]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RPGSystem/MiniMap/MiniMapWG" FILE="../../../../../Unreal Projects/Game/TABLE/Serenas_logbook 4.25（V1.42）/Content/RPGSystem/MiniMap/MiniMapWG.uasset" SILENT=true
+[2020.08.16-15.14.03:873][339]LogSavePackage: Moving '../../../../../Unreal Projects/Game/TABLE/Serenas_logbook 4.25（V1.42）/Saved/MiniMapWG7044F8E24DB505E3177236952C18E691.tmp' to '../../../../../Unreal Projects/Game/TABLE/Serenas_logbook 4.25（V1.42）/Content/RPGSystem/MiniMap/MiniMapWG.uasset'
+[2020.08.16-15.14.03:890][339]AssetCheck: New page: 资产保存：MiniMapWG
+[2020.08.16-15.14.03:890][339]LogContentValidation: Display: 正在验证WidgetBlueprint /Game/RPGSystem/MiniMap/MiniMapWG.MiniMapWG
+[2020.08.16-15.14.14:310][400]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UMG/RPG_Menu/RPG_GameHUD.RPG_GameHUD
+[2020.08.16-15.14.23:240][185]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/RPG_Menu/RPG_GameHUD" FILE="../../../../../Unreal Projects/Game/TABLE/Serenas_logbook 4.25（V1.42）/Content/UMG/RPG_Menu/RPG_GameHUD.uasset" SILENT=true
+[2020.08.16-15.14.23:254][185]LogSavePackage: Moving '../../../../../Unreal Projects/Game/TABLE/Serenas_logbook 4.25（V1.42）/Saved/RPG_GameHUD61586DF1478035D9B653D3AA375D887B.tmp' to '../../../../../Unreal Projects/Game/TABLE/Serenas_logbook 4.25（V1.42）/Content/UMG/RPG_Menu/RPG_GameHUD.uasset'
+[2020.08.16-15.14.23:296][185]AssetCheck: New page: 资产保存：RPG_GameHUD
+[2020.08.16-15.14.23:296][185]LogContentValidation: Display: 正在验证WidgetBlueprint /Game/UMG/RPG_Menu/RPG_GameHUD.RPG_GameHUD
+[2020.08.16-15.14.23:803][229]BlueprintLog: New page: 编译RPG_GameHUD
+[2020.08.16-15.14.23:844][229]LogUObjectHash: Compacting FUObjectHashTables data took   3.99ms
+[2020.08.16-15.14.23:936][229]LogSlate: Took 0.011013 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2020.08.16-15.14.35:871][973]LogSlate: Window '删除变量' being destroyed
+[2020.08.16-15.14.50:565][213]BlueprintLog: New page: 编译MiniMapWG
+[2020.08.16-15.14.50:671][213]LogUObjectHash: Compacting FUObjectHashTables data took   3.90ms
+[2020.08.16-15.14.51:217][259]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RPGSystem/MiniMap/MiniMapWG" FILE="../../../../../Unreal Projects/Game/TABLE/Serenas_logbook 4.25（V1.42）/Content/RPGSystem/MiniMap/MiniMapWG.uasset" SILENT=true
+[2020.08.16-15.14.51:259][259]LogSavePackage: Moving '../../../../../Unreal Projects/Game/TABLE/Serenas_logbook 4.25（V1.42）/Saved/MiniMapWG464AE2DE4E7BD16F4FC6E0852949B76E.tmp' to '../../../../../Unreal Projects/Game/TABLE/Serenas_logbook 4.25（V1.42）/Content/RPGSystem/MiniMap/MiniMapWG.uasset'
+[2020.08.16-15.14.51:272][259]AssetCheck: New page: 资产保存：MiniMapWG
+[2020.08.16-15.14.51:272][259]LogContentValidation: Display: 正在验证WidgetBlueprint /Game/RPGSystem/MiniMap/MiniMapWG.MiniMapWG
+[2020.08.16-15.14.53:819][499]BlueprintLog: New page: 编译MiniMapWG
+[2020.08.16-15.14.53:883][499]LogUObjectHash: Compacting FUObjectHashTables data took   3.89ms
+[2020.08.16-15.14.54:384][542]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RPGSystem/MiniMap/MiniMapWG" FILE="../../../../../Unreal Projects/Game/TABLE/Serenas_logbook 4.25（V1.42）/Content/RPGSystem/MiniMap/MiniMapWG.uasset" SILENT=true
+[2020.08.16-15.14.54:405][542]LogSavePackage: Moving '../../../../../Unreal Projects/Game/TABLE/Serenas_logbook 4.25（V1.42）/Saved/MiniMapWGE90C542D4D44DB27F759449D22F6E158.tmp' to '../../../../../Unreal Projects/Game/TABLE/Serenas_logbook 4.25（V1.42）/Content/RPGSystem/MiniMap/MiniMapWG.uasset'
+[2020.08.16-15.14.54:418][542]AssetCheck: New page: 资产保存：MiniMapWG
+[2020.08.16-15.14.54:418][542]LogContentValidation: Display: 正在验证WidgetBlueprint /Game/RPGSystem/MiniMap/MiniMapWG.MiniMapWG
+[2020.08.16-15.14.59:314][ 19]BlueprintLog: New page: 编译MiniMapWG
+[2020.08.16-15.14.59:377][ 19]LogUObjectHash: Compacting FUObjectHashTables data took   3.86ms
+[2020.08.16-15.14.59:891][ 65]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RPGSystem/MiniMap/MiniMapWG" FILE="../../../../../Unreal Projects/Game/TABLE/Serenas_logbook 4.25（V1.42）/Content/RPGSystem/MiniMap/MiniMapWG.uasset" SILENT=true
+[2020.08.16-15.14.59:941][ 65]LogSavePackage: Moving '../../../../../Unreal Projects/Game/TABLE/Serenas_logbook 4.25（V1.42）/Saved/MiniMapWG6F6D910A4919292F40BBD3AB53BFD055.tmp' to '../../../../../Unreal Projects/Game/TABLE/Serenas_logbook 4.25（V1.42）/Content/RPGSystem/MiniMap/MiniMapWG.uasset'
+[2020.08.16-15.14.59:953][ 65]AssetCheck: New page: 资产保存：MiniMapWG
+[2020.08.16-15.14.59:953][ 65]LogContentValidation: Display: 正在验证WidgetBlueprint /Game/RPGSystem/MiniMap/MiniMapWG.MiniMapWG
+[2020.08.16-15.15.06:639][764]LogTemp: Repeating last play command: 选中的视口
+[2020.08.16-15.15.06:748][764]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.08.16-15.15.06:758][764]PIE: New page: PIE会话：Untitled_1（2020年8月17日 上午7:15:06）
+[2020.08.16-15.15.06:813][764]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.08.16-15.15.06:821][764]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2020.08.16-15.15.06:829][764]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2020.08.16-15.15.06:863][764]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033695s)
+[2020.08.16-15.15.06:871][764]LogAIModule: Creating AISystem for world Untitled_1
+[2020.08.16-15.15.06:871][764]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000024C24003E00), frame # 43764
+[2020.08.16-15.15.06:871][764]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000024C7B245440), frame # 43764
+[2020.08.16-15.15.06:871][764]LogPlayLevel: PIE: World Init took: (0.008609s)
+[2020.08.16-15.15.06:874][764]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.042424s)
+[2020.08.16-15.15.06:907][764]LogUObjectHash: Compacting FUObjectHashTables data took   3.88ms
+[2020.08.16-15.15.06:928][764]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.08.16-15.15.06:928][764]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.08.16-15.15.06:928][764]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.08.16-15.15.06:928][764]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.08.16-15.15.06:928][764]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.08.16-15.15.06:928][764]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.08.16-15.15.06:928][764]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.08.16-15.15.06:928][764]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.08.16-15.15.06:929][764]LogAudio: Display: Using built-in audio occlusion.
+[2020.08.16-15.15.06:929][764]LogAudioMixer: Display: Initializing audio mixer.
+[2020.08.16-15.15.06:947][764]LogAudioMixer: Display: 0: FrontLeft
+[2020.08.16-15.15.06:947][764]LogAudioMixer: Display: 1: FrontRight
+[2020.08.16-15.15.06:965][764]LogAudioMixer: Display: Using Audio Device Realtek HD Audio 2nd output (Realtek(R) Audio)
+[2020.08.16-15.15.06:965][764]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.08.16-15.15.06:966][764]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.08.16-15.15.06:966][764]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.08.16-15.15.06:966][764]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.08.16-15.15.06:978][764]LogInit: FAudioDevice initialized.
+[2020.08.16-15.15.07:011][764]LogLoad: Game class is 'GameModeBase'
+[2020.08.16-15.15.07:011][764]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2020.08.16-23.15.07
+[2020.08.16-15.15.07:020][764]LogWorld: Bringing up level for play took: 0.002509
+[2020.08.16-15.15.07:020][764]LogOnline: OSS: Creating online subsystem instance for: :Context_8
+[2020.08.16-15.15.07:227][764]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
+[2020.08.16-15.15.07:280][764]PIE: 登陆的服务器
+[2020.08.16-15.15.07:282][764]PIE: PIE总开始时间：0.626秒。
+[2020.08.16-15.15.07:890][780]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.16-15.15.07:890][780]LogWorld: BeginTearingDown for /Temp/UEDPIE_0_Untitled_1
+[2020.08.16-15.15.07:890][780]LogWorld: UWorld::CleanupWorld for Untitled_1, bSessionEnded=true, bCleanupResources=true
+[2020.08.16-15.15.07:890][780]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.16-15.15.07:905][780]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.08.16-15.15.07:915][780]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.16-15.15.08:004][780]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.16-15.15.08:036][780]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000024C7B245440), frame # 43780
+[2020.08.16-15.15.08:036][780]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000024C24003E00), frame # 43780
+[2020.08.16-15.15.08:097][780]LogUObjectHash: Compacting FUObjectHashTables data took   4.80ms
+[2020.08.16-15.15.08:130][781]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2020.08.16-15.15.12:037][217]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Map/TestMap/TestMap_01.TestMap_01
+[2020.08.16-15.15.12:076][217]LogUObjectHash: Compacting FUObjectHashTables data took   5.04ms
+[2020.08.16-15.15.12:079][217]Cmd: MAP LOAD FILE="../../../../../Unreal Projects/Game/TABLE/Serenas_logbook 4.25（V1.42）/Content/Map/TestMap/TestMap_01.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.08.16-15.15.12:079][217]LightingResults: New page: 光照构建
+[2020.08.16-15.15.12:080][217]LoadErrors: New page: 正在加载地图：TestMap_01.umap
+[2020.08.16-15.15.12:142][217]LogWorld: UWorld::CleanupWorld for Untitled_1, bSessionEnded=true, bCleanupResources=true
+[2020.08.16-15.15.12:155][217]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.16-15.15.12:155][217]MapCheck: New page: 地图检测
+[2020.08.16-15.15.12:156][217]LightingResults: New page: 光照构建
+[2020.08.16-15.15.12:194][217]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000024A0BC38800), frame # 44217
+[2020.08.16-15.15.12:194][217]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000024A0A0B9800), frame # 44217
+[2020.08.16-15.15.12:198][217]LogUObjectHash: Compacting FUObjectHashTables data took   3.86ms
+[2020.08.16-15.15.12:429][217]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.08.16-15.15.12:430][217]LogAIModule: Creating AISystem for world TestMap_01
+[2020.08.16-15.15.12:430][217]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000024A92466000), frame # 44217
+[2020.08.16-15.15.12:430][217]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000024C822DD580), frame # 44217
+[2020.08.16-15.15.12:464][217]LogUObjectHash: Compacting FUObjectHashTables data took   3.40ms
+[2020.08.16-15.15.12:496][217]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.08.16-15.15.12:496][217]MapCheck: 地图检测完成：0个错误、0个警告、完成用时0.059毫秒。
+[2020.08.16-15.15.12:496][217]LogFileHelpers: Loading map 'TestMap_01' took 0.418
+[2020.08.16-15.15.12:583][219]LogRenderer: Reallocating scene render targets to support 2048x2048 Format 10 NumSamples 1 (Frame:1).
+[2020.08.16-15.15.14:469][434]LogTemp: Repeating last play command: 选中的视口
+[2020.08.16-15.15.14:487][434]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.08.16-15.15.14:487][434]PIE: New page: PIE会话：TestMap_01（2020年8月17日 上午7:15:14）
+[2020.08.16-15.15.14:487][434]LogPlayLevel: Creating play world package: /Game/Map/TestMap/UEDPIE_0_TestMap_01
+[2020.08.16-15.15.14:490][434]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002759s)
+[2020.08.16-15.15.14:491][434]LogAIModule: Creating AISystem for world TestMap_01
+[2020.08.16-15.15.14:491][434]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000024AAFFC5800), frame # 44434
+[2020.08.16-15.15.14:521][434]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000024AD9E46D40), frame # 44434
+[2020.08.16-15.15.14:521][434]LogPlayLevel: PIE: World Init took: (0.031098s)
+[2020.08.16-15.15.14:521][434]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/TestMap/TestMap_01.TestMap_01 to /Game/Map/TestMap/UEDPIE_0_TestMap_01.TestMap_01 (0.033938s)
+[2020.08.16-15.15.14:557][434]LogUObjectHash: Compacting FUObjectHashTables data took   3.70ms
+[2020.08.16-15.15.14:559][434]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.08.16-15.15.14:559][434]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.08.16-15.15.14:559][434]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.08.16-15.15.14:559][434]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.08.16-15.15.14:559][434]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.08.16-15.15.14:559][434]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.08.16-15.15.14:559][434]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.08.16-15.15.14:559][434]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.08.16-15.15.14:560][434]LogAudio: Display: Using built-in audio occlusion.
+[2020.08.16-15.15.14:560][434]LogAudioMixer: Display: Initializing audio mixer.
+[2020.08.16-15.15.14:563][434]LogAudioMixer: Display: 0: FrontLeft
+[2020.08.16-15.15.14:563][434]LogAudioMixer: Display: 1: FrontRight
+[2020.08.16-15.15.14:577][434]LogAudioMixer: Display: Using Audio Device Realtek HD Audio 2nd output (Realtek(R) Audio)
+[2020.08.16-15.15.14:577][434]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.08.16-15.15.14:577][434]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.08.16-15.15.14:577][434]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.08.16-15.15.14:578][434]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.08.16-15.15.14:588][434]LogInit: FAudioDevice initialized.
+[2020.08.16-15.15.14:598][434]LogLoad: Game class is 'MainRPG_GameMode_C'
+[2020.08.16-15.15.14:599][434]LogWorld: Bringing World /Game/Map/TestMap/UEDPIE_0_TestMap_01.TestMap_01 up for play (max tick rate 0) at 2020.08.16-23.15.14
+[2020.08.16-15.15.14:744][434]LogWorld: Bringing up level for play took: 0.145110
+[2020.08.16-15.15.14:744][434]LogOnline: OSS: Creating online subsystem instance for: :Context_9
+[2020.08.16-15.15.14:823][434]PIE: 登陆的服务器
+[2020.08.16-15.15.14:824][434]PIE: PIE总开始时间：0.337秒。
+[2020.08.16-15.15.14:856][434]LogScript: Warning: 已尝试访问缺失的属性 'none’。如果这是一个已打包/烘焙的版本，是否要尝试使用一个仅限编辑器的属性？
+	MiniMapPOI_WG_C /Engine/Transient.UnrealEdEngine_0:MainGameIns_C_1.RPG_GameHUD_C_0.WidgetTree_0.MiniMapWG.WidgetTree_0.MiniMapPOI_WG_C_0
+	Function /Game/RPGSystem/MiniMap/MiniMapPOI_WG.MiniMapPOI_WG_C:ExecuteUbergraph_MiniMapPOI_WG:02AB
+[2020.08.16-15.15.14:856][434]LogScript: Warning: 已尝试访问缺失的属性 'none’。如果这是一个已打包/烘焙的版本，是否要尝试使用一个仅限编辑器的属性？
+	MiniMapPOI_WG_C /Engine/Transient.UnrealEdEngine_0:MainGameIns_C_1.RPG_GameHUD_C_0.WidgetTree_0.MiniMapWG.WidgetTree_0.MiniMapPOI_WG_C_0
+	Function /Game/RPGSystem/MiniMap/MiniMapPOI_WG.MiniMapPOI_WG_C:ExecuteUbergraph_MiniMapPOI_WG:031B
+[2020.08.16-15.15.14:857][434]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.14:858][434]LogScript: Warning: 已尝试访问缺失的属性 'none’。如果这是一个已打包/烘焙的版本，是否要尝试使用一个仅限编辑器的属性？
+	MiniMapPOI_WG_C /Engine/Transient.UnrealEdEngine_0:MainGameIns_C_1.RPG_GameHUD_C_0.WidgetTree_0.MiniMapWG.WidgetTree_0.MiniMapPOI_WG_C_0
+	Function /Game/RPGSystem/MiniMap/MiniMapPOI_WG.MiniMapPOI_WG_C:ExecuteUbergraph_MiniMapPOI_WG:0735
+[2020.08.16-15.15.14:858][434]LogScript: Warning: 已尝试访问缺失的属性 'none’。如果这是一个已打包/烘焙的版本，是否要尝试使用一个仅限编辑器的属性？
+	MiniMapPOI_WG_C /Engine/Transient.UnrealEdEngine_0:MainGameIns_C_1.RPG_GameHUD_C_0.WidgetTree_0.MiniMapWG.WidgetTree_0.MiniMapPOI_WG_C_0
+	Function /Game/RPGSystem/MiniMap/MiniMapPOI_WG.MiniMapPOI_WG_C:ExecuteUbergraph_MiniMapPOI_WG:07A5
+[2020.08.16-15.15.14:858][434]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.14:858][434]LogScript: Warning: 已尝试访问缺失的属性 'none’。如果这是一个已打包/烘焙的版本，是否要尝试使用一个仅限编辑器的属性？
+	MiniMapPOI_WG_C /Engine/Transient.UnrealEdEngine_0:MainGameIns_C_1.RPG_GameHUD_C_0.WidgetTree_0.MiniMapWG.WidgetTree_0.MiniMapPOI_WG_C_1
+	Function /Game/RPGSystem/MiniMap/MiniMapPOI_WG.MiniMapPOI_WG_C:ExecuteUbergraph_MiniMapPOI_WG:02AB
+[2020.08.16-15.15.14:858][434]LogScript: Warning: 已尝试访问缺失的属性 'none’。如果这是一个已打包/烘焙的版本，是否要尝试使用一个仅限编辑器的属性？
+	MiniMapPOI_WG_C /Engine/Transient.UnrealEdEngine_0:MainGameIns_C_1.RPG_GameHUD_C_0.WidgetTree_0.MiniMapWG.WidgetTree_0.MiniMapPOI_WG_C_1
+	Function /Game/RPGSystem/MiniMap/MiniMapPOI_WG.MiniMapPOI_WG_C:ExecuteUbergraph_MiniMapPOI_WG:031B
+[2020.08.16-15.15.14:858][434]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.14:869][435]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.062281 > MaxSimulationTimeStep (0.050) for 'MainRPG_Character2D_C_0', movement 'Walking'
+[2020.08.16-15.15.14:879][435]LogScript: Warning: 已尝试访问缺失的属性 'none’。如果这是一个已打包/烘焙的版本，是否要尝试使用一个仅限编辑器的属性？
+	MiniMapPOI_WG_C /Engine/Transient.UnrealEdEngine_0:MainGameIns_C_1.RPG_GameHUD_C_0.WidgetTree_0.MiniMapWG.WidgetTree_0.MiniMapPOI_WG_C_0
+	Function /Game/RPGSystem/MiniMap/MiniMapPOI_WG.MiniMapPOI_WG_C:ExecuteUbergraph_MiniMapPOI_WG:02AB
+[2020.08.16-15.15.14:879][435]LogScript: Warning: 已尝试访问缺失的属性 'none’。如果这是一个已打包/烘焙的版本，是否要尝试使用一个仅限编辑器的属性？
+	MiniMapPOI_WG_C /Engine/Transient.UnrealEdEngine_0:MainGameIns_C_1.RPG_GameHUD_C_0.WidgetTree_0.MiniMapWG.WidgetTree_0.MiniMapPOI_WG_C_0
+	Function /Game/RPGSystem/MiniMap/MiniMapPOI_WG.MiniMapPOI_WG_C:ExecuteUbergraph_MiniMapPOI_WG:031B
+[2020.08.16-15.15.14:879][435]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.14:880][435]LogScript: Warning: 已尝试访问缺失的属性 'none’。如果这是一个已打包/烘焙的版本，是否要尝试使用一个仅限编辑器的属性？
+	MiniMapPOI_WG_C /Engine/Transient.UnrealEdEngine_0:MainGameIns_C_1.RPG_GameHUD_C_0.WidgetTree_0.MiniMapWG.WidgetTree_0.MiniMapPOI_WG_C_0
+	Function /Game/RPGSystem/MiniMap/MiniMapPOI_WG.MiniMapPOI_WG_C:ExecuteUbergraph_MiniMapPOI_WG:0735
+[2020.08.16-15.15.14:880][435]LogScript: Warning: 已尝试访问缺失的属性 'none’。如果这是一个已打包/烘焙的版本，是否要尝试使用一个仅限编辑器的属性？
+	MiniMapPOI_WG_C /Engine/Transient.UnrealEdEngine_0:MainGameIns_C_1.RPG_GameHUD_C_0.WidgetTree_0.MiniMapWG.WidgetTree_0.MiniMapPOI_WG_C_0
+	Function /Game/RPGSystem/MiniMap/MiniMapPOI_WG.MiniMapPOI_WG_C:ExecuteUbergraph_MiniMapPOI_WG:07A5
+[2020.08.16-15.15.14:880][435]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.14:880][435]LogScript: Warning: 已尝试访问缺失的属性 'none’。如果这是一个已打包/烘焙的版本，是否要尝试使用一个仅限编辑器的属性？
+	MiniMapPOI_WG_C /Engine/Transient.UnrealEdEngine_0:MainGameIns_C_1.RPG_GameHUD_C_0.WidgetTree_0.MiniMapWG.WidgetTree_0.MiniMapPOI_WG_C_1
+	Function /Game/RPGSystem/MiniMap/MiniMapPOI_WG.MiniMapPOI_WG_C:ExecuteUbergraph_MiniMapPOI_WG:02AB
+[2020.08.16-15.15.14:880][435]LogScript: Warning: 已尝试访问缺失的属性 'none’。如果这是一个已打包/烘焙的版本，是否要尝试使用一个仅限编辑器的属性？
+	MiniMapPOI_WG_C /Engine/Transient.UnrealEdEngine_0:MainGameIns_C_1.RPG_GameHUD_C_0.WidgetTree_0.MiniMapWG.WidgetTree_0.MiniMapPOI_WG_C_1
+	Function /Game/RPGSystem/MiniMap/MiniMapPOI_WG.MiniMapPOI_WG_C:ExecuteUbergraph_MiniMapPOI_WG:031B
+[2020.08.16-15.15.14:880][435]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.14:886][436]LogScript: Warning: 已尝试访问缺失的属性 'none’。如果这是一个已打包/烘焙的版本，是否要尝试使用一个仅限编辑器的属性？
+	MiniMapPOI_WG_C /Engine/Transient.UnrealEdEngine_0:MainGameIns_C_1.RPG_GameHUD_C_0.WidgetTree_0.MiniMapWG.WidgetTree_0.MiniMapPOI_WG_C_0
+	Function /Game/RPGSystem/MiniMap/MiniMapPOI_WG.MiniMapPOI_WG_C:ExecuteUbergraph_MiniMapPOI_WG:02AB
+[2020.08.16-15.15.14:886][436]LogScript: Warning: 已尝试访问缺失的属性 'none’。如果这是一个已打包/烘焙的版本，是否要尝试使用一个仅限编辑器的属性？
+	MiniMapPOI_WG_C /Engine/Transient.UnrealEdEngine_0:MainGameIns_C_1.RPG_GameHUD_C_0.WidgetTree_0.MiniMapWG.WidgetTree_0.MiniMapPOI_WG_C_0
+	Function /Game/RPGSystem/MiniMap/MiniMapPOI_WG.MiniMapPOI_WG_C:ExecuteUbergraph_MiniMapPOI_WG:031B
+[2020.08.16-15.15.14:886][436]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.14:886][436]LogScript: Warning: 已尝试访问缺失的属性 'none’。如果这是一个已打包/烘焙的版本，是否要尝试使用一个仅限编辑器的属性？
+	MiniMapPOI_WG_C /Engine/Transient.UnrealEdEngine_0:MainGameIns_C_1.RPG_GameHUD_C_0.WidgetTree_0.MiniMapWG.WidgetTree_0.MiniMapPOI_WG_C_0
+	Function /Game/RPGSystem/MiniMap/MiniMapPOI_WG.MiniMapPOI_WG_C:ExecuteUbergraph_MiniMapPOI_WG:0735
+[2020.08.16-15.15.14:886][436]LogScript: Warning: 已尝试访问缺失的属性 'none’。如果这是一个已打包/烘焙的版本，是否要尝试使用一个仅限编辑器的属性？
+	MiniMapPOI_WG_C /Engine/Transient.UnrealEdEngine_0:MainGameIns_C_1.RPG_GameHUD_C_0.WidgetTree_0.MiniMapWG.WidgetTree_0.MiniMapPOI_WG_C_0
+	Function /Game/RPGSystem/MiniMap/MiniMapPOI_WG.MiniMapPOI_WG_C:ExecuteUbergraph_MiniMapPOI_WG:07A5
+[2020.08.16-15.15.14:886][436]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.14:886][436]LogScript: Warning: 已尝试访问缺失的属性 'none’。如果这是一个已打包/烘焙的版本，是否要尝试使用一个仅限编辑器的属性？
+	MiniMapPOI_WG_C /Engine/Transient.UnrealEdEngine_0:MainGameIns_C_1.RPG_GameHUD_C_0.WidgetTree_0.MiniMapWG.WidgetTree_0.MiniMapPOI_WG_C_1
+	Function /Game/RPGSystem/MiniMap/MiniMapPOI_WG.MiniMapPOI_WG_C:ExecuteUbergraph_MiniMapPOI_WG:02AB
+[2020.08.16-15.15.14:886][436]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.14:893][437]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.14:893][437]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.14:893][437]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.14:904][438]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.14:904][438]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.14:904][438]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.14:913][439]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.14:913][439]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.14:913][439]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.14:921][440]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.14:921][440]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.14:921][440]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.14:929][441]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.14:929][441]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.14:929][441]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.14:937][442]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.14:938][442]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.14:938][442]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.14:946][443]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.14:946][443]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.14:946][443]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.14:954][444]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.14:954][444]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.14:954][444]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.14:963][445]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.14:963][445]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.14:963][445]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.14:971][446]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.14:972][446]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.14:972][446]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.14:980][447]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.14:980][447]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.14:980][447]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.14:988][448]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.14:988][448]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.14:988][448]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.14:997][449]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.14:997][449]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.14:997][449]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:005][450]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:005][450]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:005][450]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:013][451]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:013][451]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:013][451]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:022][452]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:022][452]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:022][452]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:030][453]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:030][453]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:030][453]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:038][454]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:038][454]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:038][454]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:047][455]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:047][455]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:047][455]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:055][456]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:055][456]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:055][456]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:063][457]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:063][457]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:063][457]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:071][458]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:071][458]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:071][458]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:080][459]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:080][459]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:080][459]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:088][460]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:088][460]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:088][460]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:096][461]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:096][461]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:096][461]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:105][462]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:105][462]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:105][462]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:113][463]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:113][463]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:113][463]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:121][464]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:121][464]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:121][464]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:130][465]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:130][465]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:130][465]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:138][466]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:138][466]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:138][466]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:146][467]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:147][467]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:147][467]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:155][468]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:155][468]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:155][468]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:163][469]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:163][469]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:163][469]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:172][470]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:172][470]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:172][470]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:180][471]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:180][471]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:180][471]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:188][472]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:188][472]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:188][472]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:196][473]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:196][473]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:196][473]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:205][474]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:205][474]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:205][474]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:213][475]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:213][475]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:213][475]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:221][476]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:221][476]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:221][476]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:230][477]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:230][477]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:230][477]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:238][478]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:238][478]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:238][478]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:246][479]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:246][479]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:246][479]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:254][480]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:255][480]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:255][480]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:263][481]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:263][481]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:263][481]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:271][482]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:271][482]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:271][482]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:280][483]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:280][483]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:280][483]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:288][484]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:288][484]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:288][484]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:296][485]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:296][485]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:296][485]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:305][486]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:305][486]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:305][486]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:313][487]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:313][487]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:313][487]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:321][488]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:321][488]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:321][488]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:329][489]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:330][489]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:330][489]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:338][490]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:338][490]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:338][490]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:346][491]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:346][491]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:346][491]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:355][492]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:355][492]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:355][492]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:364][493]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:364][493]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:364][493]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:371][494]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:371][494]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:372][494]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:380][495]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:380][495]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:380][495]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:388][496]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:388][496]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:388][496]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:396][497]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:396][497]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:396][497]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:405][498]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:405][498]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:405][498]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:413][499]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:413][499]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:413][499]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:421][500]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:421][500]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:421][500]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:430][501]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:430][501]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:430][501]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:438][502]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:438][502]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:438][502]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:446][503]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:446][503]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:446][503]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:455][504]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:455][504]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:455][504]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:463][505]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:463][505]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:463][505]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:471][506]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:471][506]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:471][506]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:480][507]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:480][507]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:480][507]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:488][508]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:488][508]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:488][508]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:496][509]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:496][509]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:496][509]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:504][510]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:504][510]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:504][510]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:512][511]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:513][511]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:513][511]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:521][512]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:521][512]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:521][512]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:540][513]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:540][513]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:540][513]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:545][514]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:545][514]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:545][514]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:553][515]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:553][515]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:553][515]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:561][516]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:561][516]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:561][516]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:569][517]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:570][517]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:570][517]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:578][518]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:578][518]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:578][518]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:586][519]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:586][519]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:586][519]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:594][520]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:594][520]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:594][520]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:603][521]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:603][521]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:603][521]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:611][522]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:611][522]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:611][522]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:620][523]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:620][523]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:620][523]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:628][524]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:628][524]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:628][524]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:636][525]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:636][525]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:636][525]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:645][526]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:645][526]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:645][526]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:653][527]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:653][527]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:653][527]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:661][528]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:661][528]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:661][528]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:669][529]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:669][529]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:669][529]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:678][530]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:678][530]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:678][530]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:686][531]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:686][531]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:686][531]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:695][532]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:695][532]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:695][532]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:702][533]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:702][533]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:702][533]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:711][534]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:711][534]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:711][534]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:720][535]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:720][535]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:720][535]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:728][536]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:728][536]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:728][536]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:736][537]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:736][537]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:736][537]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:745][538]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:745][538]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:745][538]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:753][539]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:753][539]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:753][539]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:761][540]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:761][540]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:761][540]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:769][541]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:769][541]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:769][541]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:778][542]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:778][542]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:778][542]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:786][543]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:786][543]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:786][543]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:794][544]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:794][544]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:794][544]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:803][545]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:803][545]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:803][545]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:811][546]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:811][546]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:811][546]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:819][547]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:819][547]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:819][547]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:828][548]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:828][548]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:828][548]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:836][549]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:836][549]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:836][549]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:845][550]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:845][550]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:845][550]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:853][551]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:853][551]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:853][551]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:861][552]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:861][552]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:861][552]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:869][553]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:869][553]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:869][553]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:878][554]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:878][554]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:878][554]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:886][555]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:886][555]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:886][555]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:894][556]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:895][556]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:895][556]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:903][557]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:903][557]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:903][557]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:911][558]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:911][558]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:911][558]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:919][559]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:919][559]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:919][559]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:928][560]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:928][560]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:928][560]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:936][561]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:937][561]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:937][561]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:945][562]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:945][562]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:945][562]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:953][563]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:953][563]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:953][563]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:961][564]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:961][564]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:961][564]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:970][565]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:970][565]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:970][565]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:978][566]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:978][566]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:978][566]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:987][567]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:987][567]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:987][567]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:995][568]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:995][568]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.15:995][568]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.16:003][569]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.16:003][569]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.16:003][569]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.16:011][570]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.16:011][570]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.16:011][570]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.16:020][571]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.16:020][571]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.16:020][571]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.16:028][572]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.16:028][572]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.16:028][572]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.16:036][573]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.16:036][573]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.16:036][573]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.16:044][574]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.16:045][574]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.16:045][574]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.16:053][575]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.16:054][575]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.16:054][575]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.16:061][576]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.16:061][576]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.16:061][576]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.16:069][577]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.16:070][577]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.16:070][577]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.16:078][578]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.16:078][578]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.16:078][578]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.16:086][579]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.16:086][579]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.16:086][579]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.16:095][580]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.16:095][580]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.16:095][580]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.16:102][581]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.16:102][581]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.16:102][581]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.16:111][582]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.16:111][582]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.16:111][582]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.16:119][583]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.16:119][583]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.16:119][583]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.16:128][584]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.16:128][584]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.16:128][584]LogScript: Warning: Script Msg: Divide by zero: Divide_Vector2DFloat
+[2020.08.16-15.15.16:163][585]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.16-15.15.16:163][585]LogWorld: BeginTearingDown for /Game/Map/TestMap/UEDPIE_0_TestMap_01
+[2020.08.16-15.15.16:164][585]LogWorld: UWorld::CleanupWorld for TestMap_01, bSessionEnded=true, bCleanupResources=true
+[2020.08.16-15.15.16:164][585]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.16-15.15.16:172][585]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.08.16-15.15.16:178][585]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.16-15.15.16:210][585]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.16-15.15.16:235][585]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000024AD9E46D40), frame # 44585
+[2020.08.16-15.15.16:235][585]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000024AAFFC5800), frame # 44585
+[2020.08.16-15.15.16:240][585]LogUObjectHash: Compacting FUObjectHashTables data took   4.31ms
+[2020.08.16-15.15.16:276][586]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2020.08.16-15.15.26:058][451]LoadErrors: Warning: 线性颜色曲线现可精确处理数值大于1的RGB。若依赖HSV限制，请更新Cloud_Dark_Color
+[2020.08.16-15.15.26:058][451]LoadErrors: Warning: 线性颜色曲线现可精确处理数值大于1的RGB。若依赖HSV限制，请更新Cloud_Light_Color
+[2020.08.16-15.15.26:180][451]LoadErrors: Warning: 线性颜色曲线现可精确处理数值大于1的RGB。若依赖HSV限制，请更新Horizon_Base_Color
+[2020.08.16-15.15.26:180][451]LoadErrors: Warning: 线性颜色曲线现可精确处理数值大于1的RGB。若依赖HSV限制，请更新Sun_Cloudy_Color
+[2020.08.16-15.15.26:180][451]LoadErrors: Warning: 线性颜色曲线现可精确处理数值大于1的RGB。若依赖HSV限制，请更新Zenith_Base_Color
+[2020.08.16-15.15.26:180][451]LoadErrors: Warning: 线性颜色曲线现可精确处理数值大于1的RGB。若依赖HSV限制，请更新Sun_Color
+[2020.08.16-15.15.26:231][451]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Map/RealMap/Blackstore1.Blackstore1
+[2020.08.16-15.15.26:272][451]LogUObjectHash: Compacting FUObjectHashTables data took   4.00ms
+[2020.08.16-15.15.26:274][451]Cmd: MAP LOAD FILE="../../../../../Unreal Projects/Game/TABLE/Serenas_logbook 4.25（V1.42）/Content/Map/RealMap/Blackstore1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.08.16-15.15.26:274][451]LightingResults: New page: 光照构建
+[2020.08.16-15.15.26:274][451]LoadErrors: New page: 正在加载地图：Blackstore1.umap
+[2020.08.16-15.15.26:276][451]LogWorld: UWorld::CleanupWorld for TestMap_01, bSessionEnded=true, bCleanupResources=true
+[2020.08.16-15.15.26:276][451]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.16-15.15.26:276][451]MapCheck: New page: 地图检测
+[2020.08.16-15.15.26:277][451]LightingResults: New page: 光照构建
+[2020.08.16-15.15.26:308][451]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000024C822DD580), frame # 45451
+[2020.08.16-15.15.26:308][451]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000024A92466000), frame # 45451
+[2020.08.16-15.15.26:313][451]LogUObjectHash: Compacting FUObjectHashTables data took   4.38ms
+[2020.08.16-15.15.26:589][451]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.08.16-15.15.26:589][451]LogAIModule: Creating AISystem for world Blackstore1
+[2020.08.16-15.15.26:589][451]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000024AB69F7C00), frame # 45451
+[2020.08.16-15.15.26:589][451]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000024AB8608900), frame # 45451
+[2020.08.16-15.15.26:629][451]LogUObjectHash: Compacting FUObjectHashTables data took   3.53ms
+[2020.08.16-15.15.26:661][451]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.08.16-15.15.26:662][451]MapCheck: 地图检测完成：0个错误、0个警告、完成用时0.097毫秒。
+[2020.08.16-15.15.26:662][451]LogFileHelpers: Loading map 'Blackstore1' took 0.387
+[2020.08.16-15.15.28:953][625]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Map/RealMap/Blackstore.Blackstore
+[2020.08.16-15.15.28:989][625]LogUObjectHash: Compacting FUObjectHashTables data took   3.65ms
+[2020.08.16-15.15.28:991][625]Cmd: MAP LOAD FILE="../../../../../Unreal Projects/Game/TABLE/Serenas_logbook 4.25（V1.42）/Content/Map/RealMap/Blackstore.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.08.16-15.15.28:991][625]LightingResults: New page: 光照构建
+[2020.08.16-15.15.28:991][625]LoadErrors: New page: 正在加载地图：Blackstore.umap
+[2020.08.16-15.15.29:032][625]LogWorld: UWorld::CleanupWorld for Blackstore1, bSessionEnded=true, bCleanupResources=true
+[2020.08.16-15.15.29:032][625]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.16-15.15.29:032][625]MapCheck: New page: 地图检测
+[2020.08.16-15.15.29:032][625]LightingResults: New page: 光照构建
+[2020.08.16-15.15.29:080][625]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000024AB8608900), frame # 45625
+[2020.08.16-15.15.29:080][625]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000024AB69F7C00), frame # 45625
+[2020.08.16-15.15.29:085][625]LogUObjectHash: Compacting FUObjectHashTables data took   3.75ms
+[2020.08.16-15.15.29:490][625]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.08.16-15.15.29:490][625]LogAIModule: Creating AISystem for world Blackstore
+[2020.08.16-15.15.29:490][625]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000024B2BF7C800), frame # 45625
+[2020.08.16-15.15.29:490][625]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000024A88B09080), frame # 45625
+[2020.08.16-15.15.29:529][625]LogUObjectHash: Compacting FUObjectHashTables data took   3.57ms
+[2020.08.16-15.15.29:560][625]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.08.16-15.15.29:561][625]MapCheck: 地图检测完成：0个错误、0个警告、完成用时0.107毫秒。
+[2020.08.16-15.15.29:561][625]LogFileHelpers: Loading map 'Blackstore' took 0.570
+[2020.08.16-15.15.38:902][286]Cmd: TRANSACTION UNDO
+[2020.08.16-15.15.38:902][286]LogEditorTransaction: Undo 添加数据表格行
+[2020.08.16-15.16.09:427][884]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RPGSystem/MiniMap/MiniMapDT" FILE="../../../../../Unreal Projects/Game/TABLE/Serenas_logbook 4.25（V1.42）/Content/RPGSystem/MiniMap/MiniMapDT.uasset" SILENT=true
+[2020.08.16-15.16.09:435][884]LogSavePackage: Moving '../../../../../Unreal Projects/Game/TABLE/Serenas_logbook 4.25（V1.42）/Saved/MiniMapDTA751C72048401D132A27468AE16898D7.tmp' to '../../../../../Unreal Projects/Game/TABLE/Serenas_logbook 4.25（V1.42）/Content/RPGSystem/MiniMap/MiniMapDT.uasset'
+[2020.08.16-15.16.09:449][884]AssetCheck: New page: 资产保存：MiniMapDT
+[2020.08.16-15.16.09:449][884]LogContentValidation: Display: 正在验证DataTable /Game/RPGSystem/MiniMap/MiniMapDT.MiniMapDT
+[2020.08.16-15.16.16:741][605]LogSlate: Last resort fallback font was requested. Font: '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf', Character: '԰ (U+0530)'
+[2020.08.16-15.16.16:794][605]LogSlate: Took 0.051197 seconds to synchronously load lazily loaded font '../../../Engine/Content/SlateDebug/Fonts/LastResort.ttf' (5269K)
+[2020.08.16-15.16.29:182][939]LogSavePackage: Moving '../../../../../Unreal Projects/Game/TABLE/Serenas_logbook 4.25（V1.42）/Saved/Map_01_2000001D44810496734AB8140DD959E9D82FA.tmp' to '../../../../../Unreal Projects/Game/TABLE/Serenas_logbook 4.25（V1.42）/Content/RPGSystem/MiniMap/MapImage/Map_01_20000.uasset'
+[2020.08.16-15.16.29:487][939]LogUObjectHash: Compacting FUObjectHashTables data took   3.68ms
+[2020.08.16-15.16.29:531][939]LogUObjectHash: Compacting FUObjectHashTables data took   3.20ms
+[2020.08.16-15.16.29:569][939]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2020.08.16-15.16.29:609][939]LogSavePackage: Moving '../../../../../Unreal Projects/Game/TABLE/Serenas_logbook 4.25（V1.42）/Saved/M_MiniMap_Inst5459B8A240D38AF7A9CEE0B5ADF0FC24.tmp' to '../../../../../Unreal Projects/Game/TABLE/Serenas_logbook 4.25（V1.42）/Content/RPGSystem/MiniMap/M_MiniMap_Inst.uasset'
+[2020.08.16-15.16.29:610][939]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RPGSystem/MiniMap/MiniMapDT" FILE="../../../../../Unreal Projects/Game/TABLE/Serenas_logbook 4.25（V1.42）/Content/RPGSystem/MiniMap/MiniMapDT.uasset" SILENT=true
+[2020.08.16-15.16.29:616][939]LogSavePackage: Moving '../../../../../Unreal Projects/Game/TABLE/Serenas_logbook 4.25（V1.42）/Saved/MiniMapDTBE4A140A456CDD95C27483B0C7AF6A09.tmp' to '../../../../../Unreal Projects/Game/TABLE/Serenas_logbook 4.25（V1.42）/Content/RPGSystem/MiniMap/MiniMapDT.uasset'
+[2020.08.16-15.16.29:746][939]AssetCheck: New page: 资产保存：多个资产
+[2020.08.16-15.16.29:746][939]LogContentValidation: Display: 正在验证Texture2D /Game/RPGSystem/MiniMap/MapImage/Map_01_20000.Map_01_20000
+[2020.08.16-15.16.29:746][939]LogContentValidation: Display: 正在验证MaterialInstanceConstant /Game/RPGSystem/MiniMap/M_MiniMap_Inst.M_MiniMap_Inst
+[2020.08.16-15.16.29:746][939]LogContentValidation: Display: 正在验证DataTable /Game/RPGSystem/MiniMap/MiniMapDT.MiniMapDT
+[2020.08.16-15.16.31:290][ 96]LogSavePackage: Moving '../../../../../Unreal Projects/Game/TABLE/Serenas_logbook 4.25（V1.42）/Saved/MiniMap_1300865EBFF647D968C470B7FFBCF268EBE8.tmp' to '../../../../../Unreal Projects/Game/TABLE/Serenas_logbook 4.25（V1.42）/Content/RPGSystem/MiniMap/MapImage/MiniMap_1300.uasset'
+[2020.08.16-15.16.31:541][ 96]LogUObjectHash: Compacting FUObjectHashTables data took   2.99ms
+[2020.08.16-15.16.31:584][ 96]LogUObjectHash: Compacting FUObjectHashTables data took   3.10ms
+[2020.08.16-15.16.31:619][ 96]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2020.08.16-15.16.31:631][ 96]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RPGSystem/MiniMap/Map_02_1300" FILE="../../../../../Unreal Projects/Game/TABLE/Serenas_logbook 4.25（V1.42）/Content/RPGSystem/MiniMap/Map_02_1300.uasset" SILENT=true
+[2020.08.16-15.16.31:639][ 96]LogSavePackage: Moving '../../../../../Unreal Projects/Game/TABLE/Serenas_logbook 4.25（V1.42）/Saved/Map_02_1300BB2036864447E783E6CE8BBF32097907.tmp' to '../../../../../Unreal Projects/Game/TABLE/Serenas_logbook 4.25（V1.42）/Content/RPGSystem/MiniMap/Map_02_1300.uasset'
+[2020.08.16-15.16.31:661][ 96]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RPGSystem/MiniMap/M_MiniMap" FILE="../../../../../Unreal Projects/Game/TABLE/Serenas_logbook 4.25（V1.42）/Content/RPGSystem/MiniMap/M_MiniMap.uasset" SILENT=true
+[2020.08.16-15.16.31:715][ 96]LogSavePackage: Moving '../../../../../Unreal Projects/Game/TABLE/Serenas_logbook 4.25（V1.42）/Saved/M_MiniMap28A9DC1C4A1285C49414A7BC39C3DADB.tmp' to '../../../../../Unreal Projects/Game/TABLE/Serenas_logbook 4.25（V1.42）/Content/RPGSystem/MiniMap/M_MiniMap.uasset'
+[2020.08.16-15.16.31:716][ 96]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/RPG_Menu/RPG_GameHUD" FILE="../../../../../Unreal Projects/Game/TABLE/Serenas_logbook 4.25（V1.42）/Content/UMG/RPG_Menu/RPG_GameHUD.uasset" SILENT=true
+[2020.08.16-15.16.31:725][ 96]LogSavePackage: Moving '../../../../../Unreal Projects/Game/TABLE/Serenas_logbook 4.25（V1.42）/Saved/RPG_GameHUD9D6E901A46FE6AF6056598B654AD2583.tmp' to '../../../../../Unreal Projects/Game/TABLE/Serenas_logbook 4.25（V1.42）/Content/UMG/RPG_Menu/RPG_GameHUD.uasset'
+[2020.08.16-15.16.31:726][ 96]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RPGSystem/MiniMap/MiniMapDT" FILE="../../../../../Unreal Projects/Game/TABLE/Serenas_logbook 4.25（V1.42）/Content/RPGSystem/MiniMap/MiniMapDT.uasset" SILENT=true
+[2020.08.16-15.16.31:732][ 96]LogSavePackage: Moving '../../../../../Unreal Projects/Game/TABLE/Serenas_logbook 4.25（V1.42）/Saved/MiniMapDT21444ACC43BFDDAEE26E58AADD6F1931.tmp' to '../../../../../Unreal Projects/Game/TABLE/Serenas_logbook 4.25（V1.42）/Content/RPGSystem/MiniMap/MiniMapDT.uasset'
+[2020.08.16-15.16.31:738][ 96]LogSavePackage: Moving '../../../../../Unreal Projects/Game/TABLE/Serenas_logbook 4.25（V1.42）/Saved/M_MiniMap_Inst10F582234760D6543C1D898477959EE9.tmp' to '../../../../../Unreal Projects/Game/TABLE/Serenas_logbook 4.25（V1.42）/Content/RPGSystem/MiniMap/M_MiniMap_Inst.uasset'
+[2020.08.16-15.16.31:865][ 96]AssetCheck: New page: 资产保存：多个资产
+[2020.08.16-15.16.31:865][ 96]LogContentValidation: Display: 正在验证Texture2D /Game/RPGSystem/MiniMap/MapImage/MiniMap_1300.MiniMap_1300
+[2020.08.16-15.16.31:865][ 96]LogContentValidation: Display: 正在验证ObjectRedirector /Game/RPGSystem/MiniMap/Map_02_1300.Map_02_1300
+[2020.08.16-15.16.31:865][ 96]LogContentValidation: Display: 正在验证Material /Game/RPGSystem/MiniMap/M_MiniMap.M_MiniMap
+[2020.08.16-15.16.31:865][ 96]LogContentValidation: Display: 正在验证WidgetBlueprint /Game/UMG/RPG_Menu/RPG_GameHUD.RPG_GameHUD
+[2020.08.16-15.16.31:865][ 96]LogContentValidation: Display: 正在验证DataTable /Game/RPGSystem/MiniMap/MiniMapDT.MiniMapDT
+[2020.08.16-15.16.31:865][ 96]LogContentValidation: Display: 正在验证MaterialInstanceConstant /Game/RPGSystem/MiniMap/M_MiniMap_Inst.M_MiniMap_Inst
+[2020.08.16-15.16.56:749][903]LogSavePackage: Moving '../../../../../Unreal Projects/Game/TABLE/Serenas_logbook 4.25（V1.42）/Saved/MiniTestMap_01_13005F6A554F45899626329C51A2E495E366.tmp' to '../../../../../Unreal Projects/Game/TABLE/Serenas_logbook 4.25（V1.42）/Content/RPGSystem/MiniMap/MapImage/MiniTestMap_01_1300.uasset'
+[2020.08.16-15.16.57:015][903]LogUObjectHash: Compacting FUObjectHashTables data took   3.64ms
+[2020.08.16-15.16.57:060][903]LogUObjectHash: Compacting FUObjectHashTables data took   3.18ms
+[2020.08.16-15.16.57:094][903]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2020.08.16-15.16.57:111][903]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RPGSystem/MiniMap/Map_02_1300" FILE="../../../../../Unreal Projects/Game/TABLE/Serenas_logbook 4.25（V1.42）/Content/RPGSystem/MiniMap/Map_02_1300.uasset" SILENT=true
+[2020.08.16-15.16.57:118][903]LogSavePackage: Moving '../../../../../Unreal Projects/Game/TABLE/Serenas_logbook 4.25（V1.42）/Saved/Map_02_13009F17377B4ED8C87A0AFF4AA09E9F0ECC.tmp' to '../../../../../Unreal Projects/Game/TABLE/Serenas_logbook 4.25（V1.42）/Content/RPGSystem/MiniMap/Map_02_1300.uasset'
+[2020.08.16-15.16.57:118][903]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RPGSystem/MiniMap/M_MiniMap" FILE="../../../../../Unreal Projects/Game/TABLE/Serenas_logbook 4.25（V1.42）/Content/RPGSystem/MiniMap/M_MiniMap.uasset" SILENT=true
+[2020.08.16-15.16.57:126][903]LogSavePackage: Moving '../../../../../Unreal Projects/Game/TABLE/Serenas_logbook 4.25（V1.42）/Saved/M_MiniMap7305A72F460B89894D4D8E9F9AF5B7F3.tmp' to '../../../../../Unreal Projects/Game/TABLE/Serenas_logbook 4.25（V1.42）/Content/RPGSystem/MiniMap/M_MiniMap.uasset'
+[2020.08.16-15.16.57:126][903]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RPGSystem/MiniMap/MiniMapDT" FILE="../../../../../Unreal Projects/Game/TABLE/Serenas_logbook 4.25（V1.42）/Content/RPGSystem/MiniMap/MiniMapDT.uasset" SILENT=true
+[2020.08.16-15.16.57:133][903]LogSavePackage: Moving '../../../../../Unreal Projects/Game/TABLE/Serenas_logbook 4.25（V1.42）/Saved/MiniMapDT5E95C9B64EB2F58FD1D625863170514C.tmp' to '../../../../../Unreal Projects/Game/TABLE/Serenas_logbook 4.25（V1.42）/Content/RPGSystem/MiniMap/MiniMapDT.uasset'
+[2020.08.16-15.16.57:139][903]LogSavePackage: Moving '../../../../../Unreal Projects/Game/TABLE/Serenas_logbook 4.25（V1.42）/Saved/M_MiniMap_InstB7082DD043EE1855696FF0943D9EAD52.tmp' to '../../../../../Unreal Projects/Game/TABLE/Serenas_logbook 4.25（V1.42）/Content/RPGSystem/MiniMap/M_MiniMap_Inst.uasset'
+[2020.08.16-15.16.57:259][903]AssetCheck: New page: 资产保存：多个资产
+[2020.08.16-15.16.57:259][903]LogContentValidation: Display: 正在验证Texture2D /Game/RPGSystem/MiniMap/MapImage/MiniTestMap_01_1300.MiniTestMap_01_1300
+[2020.08.16-15.16.57:259][903]LogContentValidation: Display: 正在验证ObjectRedirector /Game/RPGSystem/MiniMap/Map_02_1300.Map_02_1300
+[2020.08.16-15.16.57:259][903]LogContentValidation: Display: 正在验证Material /Game/RPGSystem/MiniMap/M_MiniMap.M_MiniMap
+[2020.08.16-15.16.57:259][903]LogContentValidation: Display: 正在验证DataTable /Game/RPGSystem/MiniMap/MiniMapDT.MiniMapDT
+[2020.08.16-15.16.57:259][903]LogContentValidation: Display: 正在验证MaterialInstanceConstant /Game/RPGSystem/MiniMap/M_MiniMap_Inst.M_MiniMap_Inst
+[2020.08.16-15.17.10:129][434]LogSavePackage: Moving '../../../../../Unreal Projects/Game/TABLE/Serenas_logbook 4.25（V1.42）/Saved/MiniBlackstore_2000029863CF44D03F7030F16FD8BA2D9340A.tmp' to '../../../../../Unreal Projects/Game/TABLE/Serenas_logbook 4.25（V1.42）/Content/RPGSystem/MiniMap/MapImage/MiniBlackstore_20000.uasset'
+[2020.08.16-15.17.10:381][434]LogUObjectHash: Compacting FUObjectHashTables data took   2.99ms
+[2020.08.16-15.17.10:425][434]LogUObjectHash: Compacting FUObjectHashTables data took   3.22ms
+[2020.08.16-15.17.10:460][434]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2020.08.16-15.17.10:478][434]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RPGSystem/MiniMap/MiniMapDT" FILE="../../../../../Unreal Projects/Game/TABLE/Serenas_logbook 4.25（V1.42）/Content/RPGSystem/MiniMap/MiniMapDT.uasset" SILENT=true
+[2020.08.16-15.17.10:486][434]LogSavePackage: Moving '../../../../../Unreal Projects/Game/TABLE/Serenas_logbook 4.25（V1.42）/Saved/MiniMapDTE9723C754D35D829983480962A980D83.tmp' to '../../../../../Unreal Projects/Game/TABLE/Serenas_logbook 4.25（V1.42）/Content/RPGSystem/MiniMap/MiniMapDT.uasset'
+[2020.08.16-15.17.10:584][434]AssetCheck: New page: 资产保存：多个资产
+[2020.08.16-15.17.10:584][434]LogContentValidation: Display: 正在验证Texture2D /Game/RPGSystem/MiniMap/MapImage/MiniBlackstore_20000.MiniBlackstore_20000
+[2020.08.16-15.17.10:584][434]LogContentValidation: Display: 正在验证DataTable /Game/RPGSystem/MiniMap/MiniMapDT.MiniMapDT
+[2020.08.16-15.17.13:420][765]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2020.08.16-15.17.18:260][342]LogTemp: Repeating last play command: 选中的视口
+[2020.08.16-15.17.18:279][342]BlueprintLog: New page: 运行前自动重新编译
+[2020.08.16-15.17.18:283][342]LogPlayLevel: [PlayLevel] Compiling RPG_GameHUD before play...
+[2020.08.16-15.17.18:363][342]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2020.08.16-15.17.19:745][342]LogStats: FPlatformStackWalk::StackWalkAndDump -  1.382 s
+[2020.08.16-15.17.19:755][342]LogOutputDevice: Error: === Handled ensure: ===
+[2020.08.16-15.17.19:755][342]LogOutputDevice: Error: 
+[2020.08.16-15.17.19:755][342]LogOutputDevice: Error: Ensure condition failed: !IsGarbageCollecting() [File:D:/Build/++UE4+Licensee/Sync/Engine/Source/Runtime/UMG/Private/Slate/SObjectWidget.cpp] [Line: 43]
+[2020.08.16-15.17.19:755][342]LogOutputDevice: Error: SObjectWidget for 'PlayerIcon_C /Engine/Transient.World_6:RPG_GameHUD_C_10.WidgetTree_0.MiniMapWG.WidgetTree_0.PlayerIcon_C_0' destroyed while collecting garbage.  This can lead to multiple GCs being required to cleanup the object.  Possible causes might be,
+[2020.08.16-15.17.19:756][342]LogOutputDevice: Error: 1) ReleaseSlateResources not being implemented for the owner of this pointer.
+[2020.08.16-15.17.19:756][342]LogOutputDevice: Error: 2) You may just be holding onto some slate pointers on an actor that don't get reset until the actor is Garbage Collected.  You should avoid doing this, and instead reset those references when the actor is Destroyed.
+[2020.08.16-15.17.19:756][342]LogOutputDevice: Error: Stack: 
+[2020.08.16-15.17.19:756][342]LogOutputDevice: Error: [Callstack] 0x00007ff9563fa8ee UE4Editor-UMG.dll!UnknownFunction []
+[2020.08.16-15.17.19:756][342]LogOutputDevice: Error: [Callstack] 0x00007ff95625e9a2 UE4Editor-UMG.dll!UnknownFunction []
+[2020.08.16-15.17.19:756][342]LogOutputDevice: Error: [Callstack] 0x00007ff958b9d6f1 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.08.16-15.17.19:756][342]LogOutputDevice: Error: [Callstack] 0x00007ff958b18176 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.08.16-15.17.19:756][342]LogOutputDevice: Error: [Callstack] 0x00007ff958b0fd1a UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.08.16-15.17.19:756][342]LogOutputDevice: Error: [Callstack] 0x00007ff958b9d6f1 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.08.16-15.17.19:756][342]LogOutputDevice: Error: [Callstack] 0x00007ff958b18176 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.08.16-15.17.19:756][342]LogOutputDevice: Error: [Callstack] 0x00007ff958b0fd1a UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.08.16-15.17.19:756][342]LogOutputDevice: Error: [Callstack] 0x00007ff958b1602b UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.08.16-15.17.19:756][342]LogOutputDevice: Error: [Callstack] 0x00007ff956290132 UE4Editor-UMG.dll!UnknownFunction []
+[2020.08.16-15.17.19:756][342]LogOutputDevice: Error: [Callstack] 0x00007ff95eddbcc8 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.08.16-15.17.19:756][342]LogOutputDevice: Error: [Callstack] 0x00007ff95edb9f9b UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.08.16-15.17.19:756][342]LogOutputDevice: Error: [Callstack] 0x00007ff95ed49d33 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.08.16-15.17.19:756][342]LogOutputDevice: Error: [Callstack] 0x00007ff95ed48f9c UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.08.16-15.17.19:756][342]LogOutputDevice: Error: [Callstack] 0x00007ff957db8aab UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.08.16-15.17.19:756][342]LogOutputDevice: Error: [Callstack] 0x00007ff957dbfbe0 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.08.16-15.17.19:756][342]LogOutputDevice: Error: [Callstack] 0x00007ff957dc3bbd UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.08.16-15.17.19:756][342]LogOutputDevice: Error: [Callstack] 0x00007ff957dc3598 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.08.16-15.17.19:756][342]LogOutputDevice: Error: [Callstack] 0x00007ff95784a854 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.08.16-15.17.19:756][342]LogOutputDevice: Error: [Callstack] 0x00007ff958121d06 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.08.16-15.17.19:756][342]LogOutputDevice: Error: [Callstack] 0x00007ff6793a7800 UE4Editor.exe!UnknownFunction []
+[2020.08.16-15.17.19:756][342]LogOutputDevice: Error: [Callstack] 0x00007ff6793bba7c UE4Editor.exe!UnknownFunction []
+[2020.08.16-15.17.19:756][342]LogOutputDevice: Error: [Callstack] 0x00007ff6793bbb5a UE4Editor.exe!UnknownFunction []
+[2020.08.16-15.17.19:756][342]LogOutputDevice: Error: [Callstack] 0x00007ff6793ce31d UE4Editor.exe!UnknownFunction []
+[2020.08.16-15.17.19:756][342]LogOutputDevice: Error: [Callstack] 0x00007ff6793d145a UE4Editor.exe!UnknownFunction []
+[2020.08.16-15.17.19:756][342]LogOutputDevice: Error: [Callstack] 0x00007ff9b7d87bd4 KERNEL32.DLL!UnknownFunction []
+[2020.08.16-15.17.19:756][342]LogOutputDevice: Error: [Callstack] 0x00007ff9b920ce51 ntdll.dll!UnknownFunction []
+[2020.08.16-15.17.19:756][342]LogOutputDevice: Error: 
